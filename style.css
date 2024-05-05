@@ -1,0 +1,114 @@
+*{
+    background-color: rgb(252, 251, 251);
+    /* background-color: rgb(220, 217, 217); */
+}
+body{
+    overflow-y: hidden;
+}
+
+.top{
+    text-align: right;
+    margin-top: 20px;
+}
+
+.logo{
+    text-align: center;
+    margin-top: 100px;
+}
+
+img{
+    height: 115px;
+    width: 350px;
+}
+
+.top a{
+    margin: 0px 5px;
+    text-decoration: none;
+    color: black;
+}
+
+.top a:hover{
+    text-decoration: underline;
+}
+
+.icon{
+    margin: 0px 5px;
+    text-align: center;
+    color: rgb(232, 222, 222);
+    display: inline-block;
+    padding: 10px;
+    height: 17px;
+    width: 17px;
+    background-color: rgb(18, 94, 18);
+    border-radius: 20px;
+}
+
+.icon:hover{
+    cursor: pointer;
+}
+
+.search{
+    text-align: center;
+}
+
+.searchBox{
+    width: 550px;
+    height: 50px;
+    margin: 10px 10px;
+    border: 1px solid black;
+    border-radius: 30px;
+    padding: 1px 15px;
+}
+
+.btns button{
+    margin: 10px 10px;
+    height: 30px;
+    width: 120px;
+    border: 1px solid rgb(193, 190, 190);
+    border-radius: 5px;
+    background-color:rgb(210, 207, 207) ;
+}
+
+.btns button:hover{
+    border: 1px solid rgb(93, 92, 92);
+    cursor: pointer;
+}
+
+.location{
+    margin-top: 195px;
+    margin-left: -10px;
+    margin-right: -10px;
+    border-bottom: 1px solid black;
+    font-size: 17px;
+    background-color: rgb(201, 198, 198);
+    padding: 1px 10px;
+}
+
+pre{
+    padding-left: 10px;
+    background-color: rgb(201, 198, 198);
+}
+
+.about{
+    display: inline-block;
+    margin-left: -10px ;
+    margin-right: -10px ;
+    padding: 15px 30px;
+    background-color: rgb(201, 198, 198);
+    border-bottom: 1px solid black;
+    /* justify-content: left; */
+}
+
+.about a{
+    margin-left: -20px;
+    font-size: 17px;
+    text-decoration: none;
+    background-color: rgb(201, 198, 198);
+    padding: 5px 20px;
+    color: black;
+}
+
+span{
+    margin-left: 852px;
+    background-color: rgb(201, 198, 198);
+}
